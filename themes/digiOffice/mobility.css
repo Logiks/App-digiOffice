@@ -1,0 +1,44 @@
+html,body * {
+	font-family: arial;
+}
+body.home>footer {
+	display:none !important;
+}
+div#sidebar ul li a {
+	font-size: 14px;
+	line-height:35px;
+}
+div#sidebar ul li a {
+	line-height:25px;
+}
+div#sidebarmenu>ul {
+	margin-bottom: 55px;
+	font-family: Arial;
+}
+#workspace li .ui-icon-closethick { 
+	background: url(images/icons/tabclose.png) no-repeat center right;
+	float: left;
+	padding: 4px;padding-right: 14px;
+	cursor: pointer;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	background: url(images/icons/tabclose.png) no-repeat center right;
+	padding: 2px;
+	padding-top: 0px;
+}
+
+
+
+@media (min-width:1200px) {
+  #page .listbox.padded li {
+	padding:11px 11px 12px !important;
+	border-left: 3px solid transparent;
+}
+	#page .listbox .li-span-title {
+    width: 100%;
+    line-height: 28px!important;
+    margin-top: 0px;
+    cursor: pointer;
+    display: block;
+}
+  }

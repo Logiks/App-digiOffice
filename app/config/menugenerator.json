@@ -1,0 +1,20 @@
+{
+	"Forms":{
+		"table":"forms",
+		"lnk":"page=forms&fid=%s",
+		"icon":"images/types/form.png",
+		"enabled":false
+	},
+	"Reports":{
+		"table":"reports",
+		"lnk":"page=modules&mod=reports2&rid=%s",
+		"icon":"images/types/report.png",
+		"enabled":true
+	},
+	"Analyzer":{
+		"table":"analyze",
+		"lnk":"page=analyzer&aid=%s",
+		"icon":"images/types/analyzer.png",
+		"enabled":true
+	}
+}

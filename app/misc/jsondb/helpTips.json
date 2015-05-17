@@ -1,0 +1,24 @@
+{
+	"data":{
+		"home":[
+			{
+				"msg":"Click a menu to see all the related activities.",
+				"style":"",
+				"position":"top-left"
+			},
+			{
+				"msg":"Click to discover and load Dashlets as per your requirment.",
+				"style":"right:10px;bottom:10px;",
+				"position":"bottom-right"
+			},
+			{
+				"msg":"Checkout your profile and other links.",
+				"style":"right:0px;top:10px;",
+				"position":"top-right"
+			}
+		],
+		"dashboard":{
+
+		}
+	}
+}

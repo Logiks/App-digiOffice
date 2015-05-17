@@ -1,0 +1,206 @@
+html,body {
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	display:block;
+	background:transparent url(../../../media/cssbg/denim.png) repeat;
+	font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+	font-size: 11px;
+	overflow:hidden;
+
+	font-family: sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+img {
+	margin-right:2px;
+	border:0px;
+}
+#screentable {
+	width:100%;height:100%;
+}
+#logindiv {
+	width: 320px;height: 310px;
+	margin-top:-100px;	
+	padding: 0;	
+	background: #FFFFFF;
+	
+    -moz-border-radius:5px;
+	-webkit-border-radius:5px; 
+	border-radius:5px;
+}
+#loginLogo {
+	display: none;
+}
+#loginHeader {
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	height:30px;
+	margin-bottom:5px;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+	background: #2DAEBF;
+	
+    -moz-border-radius-topleft:5px; -webkit-border-top-left-radius:5px; border-top-left-radius:5px;
+    -moz-border-radius-topright:5px; -webkit-border-top-right-radius:5px; border-top-right-radius:5px;
+    
+    color: #ffffff;	
+    font-size:1.5em;
+    text-align:center;
+
+	box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+	padding: 15px 8px;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 200;
+	color: #fff;
+}
+
+#loginForm {
+	display: block;
+	margin: auto;
+	margin-top: -15px;
+	text-align: left;
+	padding: 10px 20px;
+	color: #444;
+}
+input[type=text], input[type=password], select{
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #555;
+	vertical-align: middle;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	margin-top: 20px;
+}
+#loginForm label {
+	display: none;
+}
+#loginForm label#keepsignedlabel {
+	display: inline-block;
+	font-size: 12px;
+}
+#loginForm label#keepsignedlabel,
+	#loginForm #keepsigned {
+	margin-bottom: -25px;
+	margin-top: 5px;
+}
+#loginForm hr {
+	display: none;
+}
+#loginForm .formbox.keepsigned {
+	margin-bottom: -17px;
+	display: block;
+	margin-top: 6px;
+}
+#loginForm #loginbtns {
+	margin-top: 37px;
+	height: 27px;
+	width: 115%;
+	margin-left: -7%;
+}
+#loginForm button {
+	float: right;
+	width: 100px;
+	margin-right: 10px;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 5px;
+	border: 0px;
+
+	background: #2DAEBF;
+	color: white;
+}
+#loginForm button:hover {
+	opacity: 0.9;
+}
+#loginForm button:disabled {
+	opacity: 0.5;
+}
+#loginForm #Reset {
+	display: none;
+}
+#loginForm #Submit {
+	float: right;
+	width: 90%;
+	margin-right: 15px;
+	cursor: pointer;
+	padding: 7px;
+	border-radius: 5px;
+	border: 0px;
+}
+#loginForm button>div {
+	display: none;
+}
+a {
+	text-decoration:none;
+	color: #292929;
+}
+#pagelinks {
+	width: 110%;
+	margin-left: -2%;
+}
+#pagelinks a {
+	color: #0066CC;	
+	padding-right:10px;
+	font-size: 13px;
+}
+#errormsg {
+	width:600px;
+	height:100%;
+	padding: 10px;
+	font-size:15px;
+	border: 1px solid #eeb7ba;
+    background-color: #fae2e2;
+    background-image: -o-linear-gradient(top,  #fae2e2,  #f2cacb);
+    background-image: -ms-linear-gradient(top,  #fae2e2,  #f2cacb);
+    background-image: -moz-linear-gradient(top,  #fae2e2,  #f2cacb);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fae2e2), to(#f2cacb));
+    background-image: -webkit-linear-gradient(top,  #fae2e2,  #f2cacb);
+    background-image: linear-gradient(top,  #fae2e2,  #f2cacb);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fae2e2', endColorstr='#f2cacb');
+    color: #be4741;
+    text-shadow: 0 1px 1px #fff;
+}
+#loginFooter {
+    color: #777;
+    font-weight:plain;
+    font-size:0.75em;
+    padding:5px;
+    position:absolute;
+	bottom:0;
+	left:0;
+}
+#loginFooter a {text-decoration:none;color:#333;font-weight:bold;font-size:1em;}
+
+#loginicon,#reseticon {
+	background:transparent url(images/login/house.png) no-repeat center center;
+	width:20px;
+	height:20px;
+	float:left;
+	margin-left:15px;
+}
+#loginicon {background: transparent url(images/login/accept.png) no-repeat center center;}
+#reseticon {background: transparent url(images/login/refresh.png) no-repeat center center;}
+
+.browserLogos {
+	position:absolute;bottom:10px;right:10px;
+}
+
+@media screen and (max-width: 320px) {
+	#screentable {
+		background: transparent;
+	}
+}

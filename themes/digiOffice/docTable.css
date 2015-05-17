@@ -1,0 +1,140 @@
+.docToolbar {
+	padding: 6px;
+	text-align: left;
+}
+.docToolbar a {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.docTable {
+	width:100%;
+	height:auto !important;
+	border:0px;	
+	font:12px plain Arial;	
+}
+.docTable caption {
+	text-align:left;
+	font-weight:bold;
+	color:#555;
+	font-size:15px;
+}
+.docTable thead {
+	
+}
+.docTable tbody tr {
+	padding-left:20px;
+}
+.docTable tbody tr:hover {
+    background-color: #f4f4f4;
+    color: #6d7829;
+    cursor:pointer;
+}
+.docTable tr td {
+	cursor:pointer;
+	padding: 2px;
+	/*border-bottom:1px solid #777;
+	border-right:1px solid #aaa;*/
+}
+.docTable tr td.extension {
+	padding-top: 6px;
+	background-position-y: 6px;
+}
+.docTable .nofiles,.docTable tr.nofiles:hover {
+	font:2em bold Arial;
+	color:#1B4C8C;
+	text-align:center;
+	background:transparent;
+}
+.docTable tbody tr.even {
+	/*background-color:#C3E8BC;*/
+}
+.docTable tbody tr.active {
+	background:#BFDFFF;
+	background-color:#BFDFFF;
+}
+.docTable .nofiles b {
+	color:#8C0B0D;
+}
+
+.docTable thead td {
+	padding: 4px;
+	font-weight: bold;
+	color: #FFF;
+}
+.docTable .fileInfo {
+	display:none;
+}
+.docTable .toolbar * {
+	display: none;
+}
+
+.docTable .action .docbtn {
+	margin: 3px;margin-top: 5px;
+	float: right;
+	font-family: monospace;
+	font-size: 8px;
+}
+.docTable .action .docbtn:hover {
+	text-decoration: underline;
+}
+
+/*Buttons*/
+.minibtn {width:20px;height:20px;}
+.minibtn:hover {opacity:0.5;}
+
+/*Icons*/
+.icnblank {background:url(icons/blank.png) no-repeat left center;}
+.icndelete {background:url(icons/delete.png) no-repeat center center;}
+.icnedit {background:url(icons/edit.png) no-repeat center center;}
+.icnmail {background:url(icons/mail.png) no-repeat center center;}
+.icndownload {background:url(icons/download.png) no-repeat center center;}
+.icnview {background:url(icons/attach.png) no-repeat center center;}
+.icninfo {background:url(icons/info.png) no-repeat center center;}
+.icnreplace {background:url(icons/replace.png) no-repeat center center;}
+.icnmove {background:url(icons/move.png) no-repeat center center;}
+.icncopy {background:url(icons/copy.png) no-repeat center center;}
+.icnswap {background:url(icons/swap.png) no-repeat left center;}
+.icnvers {background:url(icons/vers.png) no-repeat left center;}
+.icncomment {background:url(icons/comments.png) no-repeat left center;}
+.icnflag {background:url(icons/flagged.png) no-repeat left center;}
+.icnunflag {background:url(icons/unflagged.png) no-repeat left center;}
+
+.icnreload {background:url(icons/reload.png) no-repeat left center;}
+
+.icnhome {background:url(icons/home.png) no-repeat left center;}
+.icnshare {background:url(icons/shared.png) no-repeat left center;}
+.icntips {background:url(icons/tips.png) no-repeat left center;}
+
+.icnfile_flagged {background:url(icons/flagged.png) no-repeat right center;}
+.icnfile_stamp {background:url(icons/stamp.png) no-repeat right center;}
+.icnfile_notverified {background:url(icons/not-verified.png) no-repeat right center;}
+
+.icnpage {background:url(icons/page.png) no-repeat left center;}
+.icncols {background:url(icons/cols.png) no-repeat left center;}
+.icncalendar {background:url(icons/calendar.png) no-repeat left center;}
+.icncategory {background:url(icons/category.png) no-repeat left center;}
+.legendicon {background:url(icons/legend.png) no-repeat left center;}
+.icnattach {background:url(icons/attach.png) no-repeat left center;}
+
+.icnuser {background:url(icons/user.png) no-repeat left center;}
+.icnmap {background:url(icons/map.png) no-repeat left center;}
+
+.icndot {background:url(icons/dot.png) no-repeat left center;}
+.icncross {background:url(icons/cross.png) no-repeat left center;}
+.icnrequired {background:url(icons/star.png) no-repeat left center;}
+
+.icntype_expired {background:url(icons/msg/circle-red-16.png) no-repeat left center;}
+.icntype_active {background:url(icons/msg/circle-green-16.png) no-repeat left center;}
+.icntype_warn {background:url(icons/msg/circle-blue-16.png) no-repeat left center;}
+.icntype_error {background:url(icons/msg/circle-grey-16.png) no-repeat left center;}
+.icntype_notfound {background:url(icons/msg/warning-16.png) no-repeat right center;}
+
+.clearicon {
+	width:20px;height:25px;
+	float:right;
+	cursor:pointer;
+}
+.clearicon:hover {
+	opacity:0.5;
+}
+
