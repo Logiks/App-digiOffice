@@ -1,2 +1,8 @@
-# App-digiOffice
-Basic Office Managment Suite, a good place to start planning your new office management application,
+# Admins Boilerplate Theme
+
+Admin Boilerplate Theme for you to quick bootstrap your project.
+
+Features:
++ Admin Theme with sidebar, header and workspace
++ Tabbed interface, clicking on sidebar link opens new tabs in the workspace.
++ UI Templates complete with forms, tables, components etc.

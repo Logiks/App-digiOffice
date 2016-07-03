@@ -1,0 +1,8 @@
+{
+    "title": "Module Loader",
+    "description": "",
+    "slug": "module/param1/param2",
+    "template": "innerpage",
+    "viewpage": "modules",
+    "enabled": true
+}

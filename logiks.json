@@ -1,0 +1,38 @@
+{
+    "name": "_admins",
+    "version": "1.0",
+    "status": "alpha",
+    "type": "app",
+    "package":"olgks._admins",
+    "description": "Admin Boilerplate Theme for you to quick bootstrap your project.",
+    "keywords": "Admin, boilerplate, theme, logiks, bootstrap",
+    "license": "MIT License",
+    "homepage": "https://github.com/LogiksApps/_admins",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LogiksApps/_admins.git"
+    },
+    "logiks-core": {
+        "min": "4.0",
+        "max": "*"
+    },
+    "files": [],
+    "ignore": [
+        ".git",
+        "Readme.txt"
+    ],
+    "dependencies": {
+        "modules":{
+            "uiDemo":"*"
+        }
+    },
+    "devDependencies": [],
+    "permissions":[],
+    "schema":[],
+    "authors": [
+        {
+            "name": "Bismay Kumar Mohapatra",
+            "email": "bismay@openlogiks.org"
+        }
+    ]
+}

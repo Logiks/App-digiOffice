@@ -1,0 +1,40 @@
+<h3 id="pagination">Pagination</h3>
+<div class="bs-example" data-example-id="simple-pagination"> <nav> <ul class="pagination"> <li> <a href="#" aria-label="Previous"> <span aria-hidden="true">«</span> </a> </li> <li><a href="#">1</a></li> <li><a href="#">2</a></li> <li><a href="#">3</a></li> <li><a href="#">4</a></li> <li><a href="#">5</a></li> <li> <a href="#" aria-label="Next"> <span aria-hidden="true">»</span> </a> </li> </ul> </nav> </div>
+
+<div class="bs-example" data-example-id="aligned-pager-links"> <nav> <ul class="pager"> <li class="previous"><a href="#"><span aria-hidden="true">←</span> Older</a></li> <li class="next"><a href="#">Newer <span aria-hidden="true">→</span></a></li> </ul> </nav> </div>
+
+
+
+<h3 id='progress-bar'>Progress bars</h3>
+<div class="bs-example" data-example-id="progress-bar-at-low-percentage"> <div class="progress"> <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width:2em"> 0% </div> </div> <div class="progress"> <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="min-width:2em;width:45%"> 45% </div> </div> </div>
+
+<div class="bs-example" data-example-id="striped-progress-bar"> <div class="progress"> <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%"> <span class="sr-only">40% Complete (success)</span> </div> </div> <div class="progress"> <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%"> <span class="sr-only">20% Complete</span> </div> </div> <div class="progress"> <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"> <span class="sr-only">60% Complete (warning)</span> </div> </div> <div class="progress"> <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"> <span class="sr-only">80% Complete (danger)</span> </div> </div> </div>
+
+
+
+<h3 id='tooltips'>Tooltips</h3>
+<div class="bs-example tooltip-demo"> 
+	<div class="bs-example-tooltips"> 
+		<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+		<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button> 
+		<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button> 
+		<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button> 
+	</div> 
+</div>
+
+
+<h3 id='popover'>Popover</h3>
+<div class="bs-example popover-demo"> 
+	<div class="bs-example-popovers"> 
+		<button type="button" class="btn btn-default" data-container="body" data-toggle="popover"  data-trigger="focus" data-placement="right" title="Popover title 1" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="" title=""> Popover on right </button> 
+		<button type="button" class="btn btn-default" data-container="body" data-toggle="popover"  data-trigger="focus" data-placement="top" title="Popover title 2" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."> Popover on top </button> 
+		<button type="button" class="btn btn-default" data-container="body" data-toggle="popover"  data-trigger="focus" data-placement="bottom" title="Popover title 3" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."> Popover on bottom </button> 
+		<button type="button" class="btn btn-default" data-container="body" data-toggle="popover"  data-trigger="focus" data-placement="left" title="Popover title 4" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."> Popover on left </button> 
+	</div> 
+</div>
+<script>
+$(function() {
+	$('[data-toggle="tooltip"]').tooltip();
+	$('[data-toggle="popover"]').popover();
+});
+</script>
